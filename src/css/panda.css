@@ -1,0 +1,233 @@
+/* Orelhas */
+.ear-l,
+.ear-r {
+  background-color: #3f3554;
+  height: 2.5em;
+  width: 2.81em;
+  border: 0.18em solid #2e0d30;
+  top: 1.75em;
+  border-radius: 2.5em 2.5em 0 0;
+  position: absolute;
+}
+
+.ear-l {
+  transform: rotate(-38deg);
+  left: 10.75em;
+}
+
+.ear-r {
+  transform: rotate(38deg);
+  right: 10.75em;
+}
+
+/* Blush */
+.blush-l,
+.blush-r {
+  background-color: #ff8bb1;
+  height: 1em;
+  width: 1.37em;
+  border-radius: 50%;
+  position: absolute;
+  top: 4em;
+}
+
+.blush-l {
+  transform: rotate(25deg);
+  left: 1em;
+}
+
+.blush-r {
+  transform: rotate(-25deg);
+  right: 1em;
+}
+
+/* Olhos */
+.eye-l,
+.eye-r {
+  background-color: #3f3554;
+  height: 2.18em;
+  width: 2em;
+  border-radius: 2em;
+  position: absolute;
+  top: 2.18em;
+}
+
+.eye-l {
+  left: 1.37em;
+  transform: rotate(-20deg);
+}
+
+.eye-r {
+  right: 1.37em;
+  transform: rotate(20deg);
+}
+
+.eyeball-l,
+.eyeball-r {
+  height: 0.6em;
+  width: 0.6em;
+  background-color: #ffffff;
+  border-radius: 50%;
+  position: absolute;
+  left: 0.6em;
+  top: 0.6em;
+  transition: 1s all;
+}
+
+.eyeball-l {
+  transform: rotate(20deg);
+}
+
+.eyeball-r {
+  transform: rotate(-20deg);
+}
+
+/* Nariz */
+.nose {
+  height: 1em;
+  width: 1em;
+  background-color: #3f3554;
+  position: absolute;
+  top: 4.37em;
+  margin: auto;
+  left: 0;
+  right: 0;
+  border-radius: 1.2em 0 0 0.25em;
+  transform: rotate(45deg);
+}
+
+.nose:before {
+  content: "";
+  position: absolute;
+  background-color: #3f3554;
+  height: 0.6em;
+  width: 0.1em;
+  transform: rotate(-45deg);
+  top: 0.75em;
+  left: 1em;
+}
+
+/* Boca */
+.mouth,
+.mouth:before {
+  height: 0.75em;
+  width: 0.93em;
+  background-color: transparent;
+  position: absolute;
+  border-radius: 50%;
+  box-shadow: 0 0.18em #3f3554;
+}
+
+.mouth {
+  top: 5.31em;
+  left: 3.12em;
+  margin-left: -2px;
+}
+
+.mouth:before {
+  content: "";
+  position: absolute;
+  left: 0.87em;
+}
+
+
+/* Face do panda */
+.panda-face {
+  position: relative;
+  width: 130px;
+  height: 120px;
+  background-color: #ffffff;
+  border-radius: 140px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  top: 2em;
+  margin: 0 auto;
+  border: 0.2em solid #2e0d30;
+}
+
+/* Mãos */
+.hand-l,
+.hand-r {
+  background-color: #3f3554;
+  height: 2.81em;
+  width: 2.5em;
+  border-radius: 40px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: absolute;
+  top: 8.4em;
+}
+
+.hand-l {
+  left: 7.5em;
+}
+
+.hand-r {
+  right: 7.5em;
+}
+
+/* Pés (patas) */
+.paw-l,
+.paw-r {
+  background-color: #3f3554;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 510px;
+  border-radius: 50%;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  z-index: 1;
+  border: 0.2em solid #2e0d30;
+  margin-top: -75px;
+}
+
+.paw-l {
+  left: 8em;
+}
+
+.paw-r {
+  right: 8em;
+}
+
+/* Almofadas das patas */
+.paw-l:before,
+.paw-r:before {
+  content: "";
+  background-color: #ffffff;
+  height: 1em;
+  width: 1.5em;
+  position: absolute;
+  top: 0.9em;
+  left: 0.75em;
+  border-radius: 50%;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.paw-l .toe,
+.paw-r .toe {
+  background-color: #ffffff;
+  height: 0.6em;
+  width: 0.6em;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.paw-l .toe {
+  top: 0.3em;
+  left: 0.5em;
+}
+
+.paw-l .toe:nth-child(2) {
+  left: 1.3em;
+}
+
+.paw-r .toe {
+  top: 0.3em;
+  right: 0.5em;
+}
+
+.paw-r .toe:nth-child(2) {
+  right: 1.3em;
+}
