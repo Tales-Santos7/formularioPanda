@@ -1,6 +1,8 @@
 # Formulario Panda 🐼🎍
 
-Formulario Panda é uma aplicação web, desenvolvida com intuito de treinar meus conhecimentos em HTML, CSS e JavaScript. O projeto oferece uma interface intuitiva, ao clicar no campo do nome do usuario o panda olha para o local onde esta sendo digitado. Ao clicar no local de senha o panda tapa os olho de maneira comica, ao enviar o formulario o panda voltará ao normal.
+Formulario Panda é uma aplicação web, desenvolvida com intuito de treinar meus conhecimentos em HTML, CSS e JavaScript.
+O projeto oferece uma interface intuitiva, ao clicar no campo do nome do usuario o panda olha para o local onde esta sendo digitado.
+Ao clicar no local de senha o panda tapa os olho de maneira comica, ao enviar o formulario o panda voltará ao normal.
 ## Visão geral
 
 ### Captura do projeto
@@ -14,7 +16,7 @@ Formulario Panda é uma aplicação web, desenvolvida com intuito de treinar meu
 
 ## Sobre esse Projeto 
 
-Creditos "https://www.instagram.com/p/C_p8H8cgl6M/?igsh=ZjFkYzMzMDQzZg==".
+Creditos "https://www.instagram.com/p/C_p8H8cgl6M/?igsh=ZjFkYzMzMDQzZg=="
 📱 Responsivo: Otimizado para desktop e dispositivos móveis. 
 
 ### Construído com
