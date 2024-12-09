@@ -1,232 +1,210 @@
+.panda-face {
+    height: 120px;
+    width: 134px;
+    background-color: #ffffff;
+    border: 3px solid #2e0d30;
+    border-radius: 120px 120px 90px 90px;
+    position: absolute;
+    top: 32px;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
 /* Orelhas */
-.ear-l,
-.ear-r {
-  background-color: #3f3554;
-  height: 40px;
-  width: 45px;
-  border: 3px solid #2e0d30;
-  top: 28px;
-  border-radius: 40px 40px 0 0;
-  position: absolute;
+.orelha-l,
+.orelha-r {
+    background-color: #3f3554;
+    height: 40px;
+    width: 45px;
+    border: 3px solid #2e0d30;
+    border-radius: 40px 40px 0 0;
+    top: 28px;
+    position: absolute;
 }
 
-.ear-l {
-  transform: rotate(-38deg);
-  left: 172px;
+.orelha-l {
+    transform: rotate(-38deg);
+    left: 172px;
 }
 
-.ear-r {
-  transform: rotate(38deg);
-  right: 172px;
+.orelha-r {
+    transform: rotate(38deg);
+    right: 172px;
 }
 
-/* Blush */
 .blush-l,
 .blush-r {
-  background-color: #ff8bb1;
-  height: 16px;
-  width: 22px;
-  border-radius: 50%;
-  position: absolute;
-  top: 64px;
+    background-color: #ff8bb1;
+    height: 16px;
+    width: 22px;
+    border-radius: 50%;
+    position: absolute;
+    top: 64px;
 }
 
 .blush-l {
-  transform: rotate(25deg);
-  left: 16px;
+    transform: rotate(25deg);
+    left: 16px;
 }
 
 .blush-r {
-  transform: rotate(-25deg);
-  right: 16px;
+    transform: rotate(-25deg);
+    right: 16px;
 }
 
 /* Olhos */
-.eye-l,
-.eye-r {
-  background-color: #3f3554;
-  height: 35px;
-  width: 32px;
-  border-radius: 32px;
-  position: absolute;
-  top: 35px;
+.olho-l,
+.olho-r {
+    background-color: #3f3554;
+    height: 35px;
+    width: 32px;
+    border-radius: 32px;
+    position: absolute;
+    top: 35px;
 }
 
-.eye-l {
-  left: 22px;
-  transform: rotate(-20deg);
+.olho-l {
+    left: 22px;
+    transform: rotate(-20deg);
 }
 
-.eye-r {
-  right: 22px;
-  transform: rotate(20deg);
+.olho-r {
+    right: 22px;
+    transform: rotate(20deg);
 }
 
-.eyeball-l,
-.eyeball-r {
-  height: 10px;
-  width: 10px;
-  background-color: #ffffff;
-  border-radius: 50%;
-  position: absolute;
-  left: 10px;
-  top: 10px;
-  transition: 1s all;
+.bolaOlho-l,
+.bolaOlho-r {
+    height: 10px;
+    width: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: 1s all;
 }
 
-.eyeball-l {
-  transform: rotate(20deg);
+.bolaOlho-l {
+    transform: rotate(20deg);
 }
 
-.eyeball-r {
-  transform: rotate(-20deg);
+.bolaOlho-r {
+    transform: rotate(-20deg);
 }
 
-/* Nariz */
-.nose {
-  height: 16px;
-  width: 16px;
-  background-color: #3f3554;
-  position: absolute;
-  top: 70px;
-  margin: auto;
-  left: 0;
-  right: 0;
-  border-radius: 19px 0 0 4px;
-  transform: rotate(45deg);
+.nariz {
+    height: 16px;
+    width: 16px;
+    background-color: #3f3554;
+    position: absolute;
+    top: 70px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    border-radius: 19px 0 0 4px;
+    transform: rotate(45deg);
 }
 
-.nose:before {
-  content: "";
-  position: absolute;
-  background-color: #3f3554;
-  height: 10px;
-  width: 1.6px;
-  transform: rotate(-45deg);
-  top: 12px;
-  left: 16px;
+.nariz:before {
+    content: "";
+    position: absolute;
+    background-color: #3f3554;
+    height: 10px;
+    width: 2px;
+    transform: rotate(-45deg);
+    top: 12px;
+    left: 16px;
 }
 
-/* Boca */
-.mouth,
-.mouth:before {
-  height: 12px;
-  width: 15px;
-  background-color: transparent;
-  position: absolute;
-  border-radius: 50%;
-  box-shadow: 0 3px #3f3554;
+.boca,
+.boca:before {
+    height: 12px;
+    width: 15px;
+    background-color: transparent;
+    position: absolute;
+    border-radius: 50%;
+    box-shadow: 0 3px #3f3554;
 }
 
-.mouth {
-  top: 85px;
-  left: 50px;
-  margin-left: -2px;
+.boca {
+    top: 85px;
+    left: 50px;
 }
 
-.mouth:before {
-  content: "";
-  position: absolute;
-  left: 14px;
+.boca:before {
+    content: "";
+    position: absolute;
+    left: 14px;
 }
 
-/* Face do panda */
-.panda-face {
-  position: relative;
-  width: 130px;
-  height: 120px;
-  background-color: #ffffff;
-  border-radius: 140px;
-  border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px;
-  top: 32px;
-  margin: 0 auto;
-  border: 3px solid #2e0d30;
+.mao-l,
+.mao-r {
+    background-color: #3f3554;
+    height: 45px;
+    width: 40px;
+    border: 3px solid #2e0d30;
+    border-radius: 10px 10px 35px 35px;
+    transition: 1s all;
+    position: absolute;
+    top: 134px;
 }
 
-/* Mãos */
-.hand-l,
-.hand-r {
-  background-color: #3f3554;
-  height: 45px;
-  width: 40px;
-  border-radius: 64px;
-  border-top-right-radius: 16px;
-  border-top-left-radius: 16px;
-  position: absolute;
-  top: 134px;
+.mao-l {
+    left: 120px;
 }
 
-.hand-l {
-  left: 120px;
+.mao-r {
+    right: 120px;
 }
 
-.hand-r {
-  right: 120px;
+.pe-l,
+.pe-r {
+    background-color: #3f3554;
+    height: 50px;
+    width: 50px;
+    border: 3px solid #2e0d30;
+    border-radius: 40px 40px 20px 20px;
+    position: absolute;
+    top: 425px;
 }
 
-/* Pés (patas) */
-.paw-l,
-.paw-r {
-  background-color: #3f3554;
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: 510px;
-  border-radius: 50%;
-  border-bottom-right-radius: 16px;
-  border-bottom-left-radius: 16px;
-  z-index: 1;
-  border: 3px solid #2e0d30;
-  margin-top: -75px;
+.pe-l {
+    left: 160px;
 }
 
-.paw-l {
-  left: 128px;
+.pe-r {
+    right: 160px;
 }
 
-.paw-r {
-  right: 128px;
+.pe-l:before,
+.pe-r:before {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    height: 22px;
+    width: 28px;
+    top: 18px;
+    left: 9px;
+    border-radius: 25px 25px 10px 10px;
 }
 
-/* Almofadas das patas */
-.paw-l:before,
-.paw-r:before {
-  content: "";
-  background-color: #ffffff;
-  height: 16px;
-  width: 24px;
-  position: absolute;
-  top: 14px;
-  left: 12px;
-  border-radius: 50%;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+.pe-l:after,
+.pe-r:after {
+    position: absolute;
+    content: "";
+    background-color: #ffffff;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    top: 5px;
+    left: 18px;
+    box-shadow: 14px 6px #ffffff, -14px 6px #ffffff;
 }
 
-.paw-l .toe,
-.paw-r .toe {
-  background-color: #ffffff;
-  height: 10px;
-  width: 10px;
-  border-radius: 50%;
-  position: absolute;
-}
-
-.paw-l .toe {
-  top: 5px;
-  left: 8px;
-}
-
-.paw-l .toe:nth-child(2) {
-  left: 21px;
-}
-
-.paw-r .toe {
-  top: 5px;
-  right: 8px;
-}
-
-.paw-r .toe:nth-child(2) {
-  right: 21px;
+@media screen and (max-width: 500px) {
+    .container {
+        font-size: 14px;
+    }
 }

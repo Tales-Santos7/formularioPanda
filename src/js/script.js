@@ -1,74 +1,74 @@
 let usernameRef = document.getElementById("username");
 let passwordRef = document.getElementById("password");
-let eyel = document.querySelector(".eyeball-l");
-let eyer = document.querySelector(".eyeball-r");
-let handL = document.querySelector(".hand-l");
-let handR = document.querySelector(".hand-r");
+let olhol = document.querySelector(".bolaOlho-l");
+let olhor = document.querySelector(".bolaOlho-r");
+let maoL = document.querySelector(".mao-l");
+let maoR = document.querySelector(".mao-r");
 
-
-let normalEyeStyle = () => {
-    eyel.style.cssText = `
-    left: 0.6em;
-    top: 0.6em;
+let normalOlhoStyle = () => {
+    olhol.style.cssText = `
+    left: 10px;
+    top: 10px;
     `;
-    eyer.style.cssText = `
-    right: 0.6em;
-    top: 0.6em;
-    `;
-};
-
-let normalHandStyle = () => {
-    handL.style.cssText = `
-    height: 2.81em;
-    top: 8.4em;
-    left: 7.5em;
-    transform: rotate(0deg);
-      transition: 0.4s;
-    `;
-    handR.style.cssText = `
-    height: 2.81em;
-    top: 8.4em;
-    right: 7.5em;
-    transform: rotate(0deg);
-      transition: 0.4s;
+    olhor.style.cssText = `
+    right: 10px;
+    top: 10px;
     `;
 };
 
+let normalMaoStyle = () => {
+    maoL.style.cssText = `
+    height: 45px;
+    top: 134px;
+    left: 120px;
+    transform: rotate(0deg);
+      transition: 0.4s;
+    `;
+    maoR.style.cssText = `
+    height: 45px;
+    top: 134px;
+    right: 120px;
+    transform: rotate(0deg);
+      transition: 0.4s;
+    `;
+};
 
 usernameRef.addEventListener("focus", () => {
-    eyel.style.cssText = `
-    left: 0.75em;
-    top: 1.12em;
+    olhol.style.cssText = `
+    left: 12px;
+    top: 18px;
     `;
-    eyer.style.cssText = `
-    right: 0.75em;
-    top: 1.12em;
+    olhor.style.cssText = `
+    right: 12px;
+    top: 18px;
     `;
-    normalHandStyle();
+    normalMaoStyle();
 });
-//When clicked on password input
+
+// Quando clicado no campo senha
 passwordRef.addEventListener("focus", () => {
-    handL.style.cssText = `
-    height: 6.56em;
-    top: 3.87em;
-    left: 11.75em;
+    maoL.style.cssText = `
+    height: 105px;
+    top: 62px;
+    left: 188px;
     transform: rotate(-155deg);
       transition: 0.4s;
     `;
-    handR.style.cssText = `
-    height: 6.56em;
-    top: 3.87em;
-    right: 11.75em;
+    maoR.style.cssText = `
+    height: 105px;
+    top: 62px;
+    right: 188px;
     transform: rotate(155deg);
       transition: 0.4s;
     `;
-    normalEyeStyle();
+    normalOlhoStyle();
 });
-//When clicked outside username and password input
+
+// Quando clicado fora do nome de usuário e/ou campo da senha
 document.addEventListener("click", (e) => {
     let clickedElem = e.target;
     if (clickedElem != usernameRef && clickedElem != passwordRef) {
-        normalEyeStyle();
-        normalHandStyle();
+        normalOlhoStyle();
+        normalMaoStyle();
     }
 });

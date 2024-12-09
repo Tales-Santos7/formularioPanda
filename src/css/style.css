@@ -3,22 +3,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-}
-
-body {
+  }
+  body {
     background-color: #f4c531;
-}
-
-.container {
+  }
+  .container {
     height: 500px;
     width: 500px;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-}
-
-form {
+  }
+  form {
     width: 380px;
     height: 300px;
     background-color: #ffffff;
@@ -31,61 +28,38 @@ form {
     flex-direction: column;
     justify-content: center;
     border-radius: 8px;
+  }
+  form label {
+    display: block;
+    margin-bottom: 3px;
     font-weight: 600;
-    color: #2d1300;
-}
-
-form input:focus {
+    color: #2e0d30;
+  }
+  form input {
+    font-size: 15px;
+    font-weight: 400;
+    color: #3f3554;
+    padding: 5px;
+    border: none;
+    border-bottom: 2px solid #3f3554;
+    outline: none;
+  }
+  form input:focus {
     border-color: #f4c531;
-}
-
-form input:not(:last-child) {
+  }
+  form input:not(:last-child) {
     margin-bottom: 14px;
-}
-
-.username {
-    margin-top: 7px;
-}
-
-form button {
+  }
+  form button {
     font-size: 15px;
     padding: 13px 0;
     border-radius: 32px;
     border: none;
-    cursor: pointer;
     outline: none;
     background-color: #f4c531;
     color: #2e0d30;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2.4px;
-    transition: 0.5s;
-}
-
-form input {
-    border: none;
-    border-bottom: 2px solid #d3d3d3;
-    /* Linha inferior padrão */
-    background: none;
-    padding: 8px 0;
-    font-size: 16px;
-    outline: none;
-    color: #2e0d30;
-    transition: border-color 0.3s;
-}
-
-form input:focus {
-    border-bottom: 2px solid #f4c531;
-    /* Linha inferior no foco */
-}
-
-form input::placeholder {
-    color: #64543d;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-/* Botão do formulário */
-form button:hover {
-    background-color: #d4a520;
-}
+    margin-top: 13px;
+  }
