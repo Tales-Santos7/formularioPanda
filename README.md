@@ -7,7 +7,7 @@ Ao clicar no local de senha o panda tapa os olho de maneira comica, ao enviar o 
 
 ### Captura do projeto
 
-[<img src="./src/img/formularioPandaGIF.gif" alt="gif da dela inicial do projeto 'E-commerceAPP'">]
+[<img src="./src/img/formularioPandaGIF.gif" alt="gif da dela inicial do projeto 'Formulario Panda'">]
 
 ### Links
 
